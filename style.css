@@ -76,3 +76,12 @@ footer {
 hr {
   border: 1px solid black;
 }
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  margin: 20px;
+}
