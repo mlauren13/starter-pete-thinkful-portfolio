@@ -32,10 +32,11 @@ article {
   padding: 50px 0;
 }
 
+/* Removing center justification
 article div {
   text-align: center;
   width: 100%;
-}
+}*/
 
 /* Paragraphs */
 p {
@@ -84,4 +85,20 @@ hr {
 
 .item {
   margin: 20px;
+}
+
+.group-about {
+  display: flex;
+  align-items: first baseline;
+}
+
+.sub-group {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+
+.item-about {
+  align-items: left;
 }
